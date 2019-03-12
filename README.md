@@ -1,6 +1,9 @@
 # qt_360_safe
 qt高仿360安全卫士
 
+效果图地址:
+https://blog.csdn.net/dkaily1314/article/details/65442765
+
 说明：
 改代码写于2017年，所以现在的qt编译器可能有部分代码已经不相同了。
 
