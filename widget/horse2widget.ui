@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Horse2Widget</class>
+ <widget class="QWidget" name="Horse2Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>920</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>920</width>
+     <height>460</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="main" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>920</width>
+     <height>460</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="top" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>920</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <widget class="WaveBallWidget" name="waveBall" native="true">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ProgressBarWidget" name="progreBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>126</y>
+       <width>920</width>
+       <height>4</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="title">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>401</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>正在扫描: 系统启动项</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="subtitle">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>80</y>
+       <width>381</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>50</y>
+       <width>90</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>暂停扫描</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="timer">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>60</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>已用时: 00:00:01</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="bottom" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>920</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>920</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>5</y>
+        <width>381</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>正在进行木马扫描-共10项 (扫描系统是否存在病毒木马)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>300</y>
+       <width>241</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>扫描完成后自动关机(自动清理木马)</string>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>30</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>160</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>160</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="ScanWidget" name="scan_10" native="true">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>160</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WaveBallWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">customviews/waveballwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ProgressBarWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">customviews/progressbarwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ScanWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">customviews/scanwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

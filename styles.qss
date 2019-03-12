@@ -1,0 +1,79 @@
+QPushButton{
+    border:none;
+}
+
+QProgressBar {
+background-color: transparent;
+color: #FF0000;
+}
+
+QProgressBar::chunk {
+    background-color: transparent;
+    color: #FF0000;
+}
+
+QLineEdit::hover {
+    background-color: #000000;
+    color: #FF0000;
+}
+
+*[market_toolbutton="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(124, 124, 124);
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+*[horsewidget_toolbutton_1="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(124, 124, 124);
+}
+
+*[horsewidget_toolbutton_2="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(124, 124, 124);
+}
+
+*[horsewidget_toolbutton_3="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(124, 124, 124);
+}
+
+*[homewidget_toolbutton="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(124, 124, 124);
+    padding-bottom: 10px;
+}
+
+*[mainwindow_toolbutton="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+*[download="true"] {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #00000000;
+    color:rgb(0xA0, 0xA0, 0xA0);
+}
+
+/* 菜单栏按下时 */
+*[mainwindow_toolbutton_selected="true"] { /* italicize selected tabs */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+    stop:0 rgba(0, 0, 0, 0),
+    stop:1 rgba(0, 0, 0, 32));
+}

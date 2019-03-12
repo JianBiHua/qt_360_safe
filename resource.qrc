@@ -1,0 +1,107 @@
+<RCC>
+    <qresource prefix="/top">
+        <file>images/top/top_close.png</file>
+        <file>images/top/top_menu.png</file>
+        <file>images/top/top_min.png</file>
+        <file>images/top/top_theme.png</file>
+        <file>images/top/top_close_b.png</file>
+        <file>images/top/top_min_b.png</file>
+        <file>images/other/icon_liulanqi.png</file>
+        <file>images/other/icon_scan_g.png</file>
+    </qresource>
+    <qresource prefix="/tab">
+        <file>images/tab/tab_actions.png</file>
+        <file>images/tab/tab_clear.png</file>
+        <file>images/tab/tab_fix.png</file>
+        <file>images/tab/tab_home.png</file>
+        <file>images/tab/tab_horse.png</file>
+        <file>images/tab/tab_optimize.png</file>
+        <file>images/tab/tab_app.png</file>
+        <file>images/tab/tab_market.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>styles.qss</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file>images/other/icon.png</file>
+        <file>images/other/icon_w.png</file>
+        <file>images/other/icon_360.png</file>
+        <file>images/other/icon_app.png</file>
+        <file>images/other/icon_fanghuzhongxin.png</file>
+        <file>images/other/icon_fanlesuo.png</file>
+        <file>images/other/icon_fix.png</file>
+        <file>images/other/icon_handler.png</file>
+        <file>images/other/icon_help.png</file>
+        <file>images/other/icon_more.png</file>
+        <file>images/other/icon_right.png</file>
+        <file>images/other/icon_wanggou.png</file>
+        <file>images/other/icon_waring.png</file>
+        <file>images/other/icon_search_hover.png</file>
+        <file>images/other/icon_search_normal.png</file>
+        <file>images/other/icon_search_press.png</file>
+        <file>images/other/icon_liulanqi.png</file>
+        <file>images/other/icon_scan_g.png</file>
+        <file>images/other/icon_check_1.png</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file>images/menu/menu_about.png</file>
+        <file>images/menu/menu_change.png</file>
+        <file>images/menu/menu_help.png</file>
+        <file>images/menu/menu_mian.png</file>
+        <file>images/menu/menu_option.png</file>
+        <file>images/menu/menu_question.png</file>
+        <file>images/menu/menu_upgrade.png</file>
+        <file>images/menu/menu_web.png</file>
+        <file>images/menu/menu_yinsi.png</file>
+    </qresource>
+    <qresource prefix="/question">
+        <file>images/question/next_icon2.png</file>
+        <file>images/question/next_tb_1.png</file>
+        <file>images/question/next_tb_2.png</file>
+        <file>images/question/next_tb_3.png</file>
+        <file>images/question/question_icon1.png</file>
+        <file>images/question/question_icon2.png</file>
+        <file>images/question/question_icon3.png</file>
+        <file>images/question/question.png</file>
+    </qresource>
+    <qresource prefix="/horse">
+        <file>images/horse/icon_anweizhi.png</file>
+        <file>images/horse/icon_horse.png</file>
+        <file>images/horse/icon_huifuqu.png</file>
+        <file>images/horse/icon_icon_1.png</file>
+        <file>images/horse/icon_icon_2.png</file>
+        <file>images/horse/icon_icon_3.png</file>
+        <file>images/horse/icon_pb_bg_1.png</file>
+        <file>images/horse/icon_pb_bg_2.png</file>
+        <file>images/horse/icon_pb_bg_3.png</file>
+        <file>images/horse/icon_pb_bg_4.png</file>
+        <file>images/horse/icon_pb_bg_5.png</file>
+        <file>images/horse/icon_quanpansaomiao.png</file>
+        <file>images/horse/icon_shangbaoqu.png</file>
+        <file>images/horse/icon_xinrenqu.png</file>
+        <file>images/horse/icon_clear.png</file>
+        <file>images/horse/icon_fix.png</file>
+        <file>images/horse/icon_optimize.png</file>
+    </qresource>
+    <qresource prefix="/market">
+        <file>images/market/market_icon_1_b.png</file>
+        <file>images/market/market_icon_1_g.png</file>
+        <file>images/market/market_icon_2_b.png</file>
+        <file>images/market/market_icon_2_g.png</file>
+        <file>images/market/market_icon_3_b.png</file>
+        <file>images/market/market_icon_3_g.png</file>
+        <file>images/market/market_icon_4_b.png</file>
+        <file>images/market/market_icon_4_g.png</file>
+        <file>images/market/market_icon_5_b.png</file>
+        <file>images/market/market_icon_5_g.png</file>
+    </qresource>
+    <qresource prefix="/option">
+        <file>images/option/option_cell_1.png</file>
+        <file>images/option/option_top_1.png</file>
+        <file>images/option/option_top_2.png</file>
+        <file>images/option/option_top_3.png</file>
+        <file>images/option/option_top_4.png</file>
+        <file>images/option/option_top_5.png</file>
+        <file>images/option/option_top_6.png</file>
+    </qresource>
+</RCC>
