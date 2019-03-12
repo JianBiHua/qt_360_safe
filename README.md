@@ -5,7 +5,9 @@ qt高仿360安全卫士
 https://blog.csdn.net/dkaily1314/article/details/65442765
 
 说明：
-改代码写于2017年，所以现在的qt编译器可能有部分代码已经不相同了。
+1. 该代码写于2017年3月，所以现在的qt编译器可能有部分代码已经不相同了。
+2. 仅供新手学习qt使用，因为我也是开始学习时，练手的小程序，里面有很多不合理的代码。
+
 
 编译时，可能会出现 Project ERROR: Unknown module(s) in QT: webenginewidgets 错误。
 解决办法: 
