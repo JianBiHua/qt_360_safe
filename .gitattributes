@@ -1,6 +1,2 @@
 # Auto detect text files and perform LF normalization
-* text=qt
-*.js linguist-language=qt
-*.css linguist-language=qt
-*.html linguist-language=qt
-*.cpp linguist-language=qt
+* text=auto
